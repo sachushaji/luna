@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package protos;
+
+// The greeting service definition.
+service Peer {
+  // Sends a connection message
+  rpc ConnectPeer (PeerRequest) returns (PeerReply) {}
+}
+
+// The request message
+message PeerRequest {
+  string name = 1;
+}
+
+// The response message containing the connection message
+message PeerReply {
+  string message = 1;
+}

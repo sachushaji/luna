@@ -7,6 +7,20 @@ A Go Blockchain Implementation which helps beginners to easily grasp the fundame
 - Should Have Git Installed
 - Should Have postman Installed
 
+### Go Dependency Management
+```
+$ dep ensure
+```
+If dep is not installed use following commands
+On MacOS you can install or upgrade to the latest released version with Homebrew:
+```
+$ brew install dep
+$ brew upgrade dep
+```
+On other platforms you can use the install.sh script:
+```
+curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+```
 
 ### How To Install
 

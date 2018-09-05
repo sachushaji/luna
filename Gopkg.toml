@@ -1,0 +1,7 @@
+[[constraint]]
+name = "github.com/golang/protobuf"
+branch = "master"
+
+[[constraint]]
+name = "github.com/grpc/grpc-go"
+branch = "master"
